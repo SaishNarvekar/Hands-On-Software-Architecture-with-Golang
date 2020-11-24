@@ -15,7 +15,7 @@ func (p *Person) Grow() {
 	p.Age++
 }
 
-// DoesNotGrow method has a value receiver. This is Pass-By-Value. Age will nto be modified here
+// DoesNotGrow method has a value receiver. This is Pass-By-Value. Age will not be modified here
 func (p Person) DoesNotGrow() {
 	p.Age++
 }
